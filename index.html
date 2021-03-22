@@ -1,0 +1,137 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<script src="index.js"></script>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./public/images/logo.svg" alt="" class="logo"> Intugine
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Brands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Transporters</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./public/images/profile.svg" alt="" class="logo">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="outdiv">
+        <div class="indiv">
+            <div class="status_code" id="1" onclick="set_cs(this.id)">
+                <h5>del</h5>
+            </div>
+            <div class="counter_value">
+                <h3 id="sc1"></h3>
+            </div>
+        </div>
+        <div class="indiv">
+            <div class="status_code" id="2" onclick="set_cs(this.id)">
+                <h5>int</h5>
+            </div>
+            <div class="counter_value">
+                <h3 id="sc2"></h3>
+            </div>
+        </div>
+        <div class="indiv" id="3" onclick="set_cs(this.id)">
+            <div class="status_code" >
+                <h5>ood</h5>
+            </div>
+            <div class="counter_value">
+                <h3 id="sc3"></h3>
+            </div>
+        </div>
+        <div class="indiv">
+            <div class="status_code" id="4" onclick="set_cs(this.id)">
+                <h5>dex</h5>
+            </div>
+            <div class="counter_value">
+                <h3 id="sc4"></h3>
+            </div>
+        </div>
+        <div class="indiv">
+            <div class="status_code" id="5" onclick="set_cs(this.id)">
+                <h5>nfi</h5>
+            </div>
+            <div class="counter_value">
+                <h3 id="sc5"></h3>
+            </div>
+        </div>
+    </div>
+    <div class="stats">
+        <div class="state">
+            <img class="ware" src="./public/images/warehouse.svg">
+            <img class="dest" src="./public/images/destination.svg">
+            <div class="details">
+                <div class="delivery"></div>
+                <div class="delivery"></div>
+                <div class="delivery"></div>
+                <div class="delivery"></div>
+                <div class="delivery"></div>
+            </div>
+        </div>
+        <div id="timeline">
+            <div class="label">
+                <div class="cell">
+                    <h6>awb number </h6>
+                </div>
+                <div class="cell">
+                    <h6>transporter</h6>
+                </div>
+                <div class="cell">
+                    <h6>source</h6>
+                </div>
+                <div class="cell">
+                    <h6>
+                        destination
+                    </h6>
+                </div>
+                <div class="cell">
+                    <h6>brand</h6>
+                </div>
+                <div class="cell">
+                    <h6>start date</h6>
+                </div>
+                <div class="cell">
+                    <h6>etd</h6>
+                </div>
+                <div class="cell">
+                    <h6>status</h6>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+@media (min-width: 992px)
+{.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    justify-content: flex-end;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}}
+.outdiv{
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+.indiv{
+    padding: 10px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: #D5DEFF;
+    margin: 8px;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.status_code{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30%;
+}
+.status_code > h5{
+    font-size:14px;
+    color:#2E5BFF;
+    text-transform: uppercase;
+    font-family: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.counter_value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.counter_value > h3{
+    font-size:30px;
+    color:#2E5BFF;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+.stats{
+    padding:50px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    width:100%;
+}
+.state{
+    width:40%;
+    border: 1px solid #D5DEFF;
+    padding:10px;
+    margin: 20px 15px;
+
+}
+.details{
+
+}
+.logo{
+    width:"40px"; height:"auto"
+}
+#timeline{
+    display:block flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border: 1px solid #D5DEFF;
+    height: 350px;
+    overflow-y: scroll;
+}
+.label{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+}
+.cell{
+    margin:0px 2px;
+    padding:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:12%;   
+}
+.cell > h6{
+    text-decoration: uppercase;
+    font-weight: 600;
+    color: #000;
+}
+.celldown{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    border: 1px solid #D5DEFF;
+}
+.cell1{
+    margin:5px 2px;
+    padding:2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%; 
+}
+/* .celldown1{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    border: 1px solid #D5DEFF;
+} */
+/* .cell2{
+    margin:10px 10px;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} */
